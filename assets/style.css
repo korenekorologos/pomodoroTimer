@@ -1,0 +1,59 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-size: 100%;
+    }
+    
+    .center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width:500px;
+        height:500px;
+        transform: translate(-50%, -50%);
+        background: black;
+        color: white;       
+    }
+
+    #wrapper{
+        position: relative;
+        text-align: center;
+        height: 100vh;
+        max-width: 100%;
+    }
+    #timer{
+        font-size:100px;
+        margin-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    #audio{
+        margin-top:80px;
+        font-size:40px;
+    }
+    #points{
+        font-family: "Arial";
+        position:fixed;
+        bottom:0;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        font-size:20px;
+        color:red; 
+    }
+    
+    @media screen and (max-width:430px){
+        #audio{
+            margin-top: 10px;
+        }
+        #timer{
+            padding-top:5px;
+        }
+        button{
+            width:95%;
+            margin-bottom:17px;
+        }
+        iframe{ /* displays a webpage within a webpage */
+            width:100%;
+        }
+    }
