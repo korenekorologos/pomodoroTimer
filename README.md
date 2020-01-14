@@ -8,3 +8,6 @@ The pomodoro technique is ideal for time management. How it works is you use the
   
   
   Javascript, CSS 
+
+
+https://korenekorologos.github.io/pomodoroTimer/
